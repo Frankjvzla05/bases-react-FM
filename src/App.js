@@ -48,7 +48,7 @@ class App extends React.Component {
   componentWillUnmount() {
     this.unsubscribeFromAuth();
   }
-
+  // pattern design: Render Props
   render() {
     return (
       <div>
